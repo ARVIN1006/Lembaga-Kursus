@@ -1,16 +1,62 @@
-# React + Vite
+# 🎓 Sistem Informasi Lembaga Kursus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Platform web modern yang dirancang untuk kebutuhan lembaga kursus dan pendidikan. Proyek ini dibangun menggunakan teknologi front-end paling mutakhir untuk memastikan performa tinggi dan kemudahan pengembangan.
 
-Currently, two official plugins are available:
+![Status](https://img.shields.io/badge/Status-Development-yellow)
+![React](https://img.shields.io/badge/React-v19-blue)
+![Vite](https://img.shields.io/badge/Vite-v5-purple)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Fitur Unggulan
 
-## React Compiler
+- **Teknologi Terbaru**: Menggunakan React 19 dan Tailwind CSS v4.
+- **Navigasi Cepat**: Routing sisi klien (Client-side routing) dengan React Router DOM v7.
+- **Tampilan Modern**: Antarmuka pengguna yang bersih dan responsif.
+- **Performa Tinggi**: Build tool Vite memberikan pengalaman pengembangan yang sangat cepat.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **[React 19](https://react.dev/)**: Versi terbaru dari library UI populer.
+- **[Vite](https://vitejs.dev/)**: Build tool yang sangat cepat.
+- **[Tailwind CSS v4](https://tailwindcss.com/)**: Framework utility-first untuk styling (versi alpha/beta/terbaru).
+- **[React Router DOM v7](https://reactrouter.com/)**: Manajemen navigasi dan routing aplikasi.
+- **[Lucide React](https://lucide.dev/)**: Koleksi ikon yang konsisten dan ringan.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Panduan Instalasi
+
+Ikuti langkah ini untuk menjalankan proyek di lokal komputer Anda:
+
+1.  **Clone / Download** repositori ini.
+2.  Buka terminal di direktori proyek.
+3.  **Instal Dependencies**:
+    ```bash
+    npm install
+    ```
+4.  **Jalankan Server Development**:
+    ```bash
+    npm run dev
+    ```
+5.  Buka browser dan akses alamat yang muncul (biasanya `http://localhost:5173`).
+
+## 📜 Skrip Tersedia
+
+- `npm run dev`: Menjalankan server pengembangan.
+- `npm run build`: Membuild aplikasi untuk produksi.
+- `npm run lint`: Memeriksa kode dengan ESLint.
+- `npm run preview`: Melihat preview hasil build produksi.
+
+## 📂 Struktur Folder
+
+```
+Lembaga-Kursus/
+├── src/
+│   ├── components/  # Komponen UI
+│   ├── pages/       # Halaman-halaman aplikasi
+│   ├── App.jsx      # Setup utama & Routing
+│   └── main.jsx     # Entry point
+├── public/          # Main html dan aset statis
+└── package.json     # Konfigurasi dependensi
+```
+
+---
+
+© 2024 Lembaga Kursus - Dikembangkan dengan standar teknologi terkini.
